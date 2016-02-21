@@ -1,43 +1,14 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# Created by https://www.gitignore.io/api/linux
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+### Linux ###
+*~
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# Windows shortcuts
-*.lnk
+# KDE directory preferences
+.directory
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
